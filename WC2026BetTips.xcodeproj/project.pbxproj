@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000101 /* WC2026TipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000001 /* WC2026TipsApp.swift */; };
+		A10000000000000000000102 /* WC2026TipsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* WC2026TipsModels.swift */; };
+		A10000000000000000000103 /* WC2026TipsLocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000003 /* WC2026TipsLocalStore.swift */; };
+		A10000000000000000000104 /* WC2026TipsThemeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000004 /* WC2026TipsThemeKit.swift */; };
+		A10000000000000000000105 /* WC2026TipsArrivalStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* WC2026TipsArrivalStage.swift */; };
+		A10000000000000000000106 /* WC2026TipsSignalGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* WC2026TipsSignalGate.swift */; };
+		A10000000000000000000107 /* WC2026TipsOnlinePassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */; };
+		A10000000000000000000108 /* WC2026TipsAppsFlyerAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */; };
+		A10000000000000000000109 /* WC2026TipsExperienceScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */; };
+		A10000000000000000000110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* Assets.xcassets */; };
+		A10000000000000000000111 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000302 /* AppsFlyerLib-Static */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A10000000000000000000001 /* WC2026TipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsApp.swift; sourceTree = "<group>"; };
+		A10000000000000000000002 /* WC2026TipsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsModels.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* WC2026TipsLocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsLocalStore.swift; sourceTree = "<group>"; };
+		A10000000000000000000004 /* WC2026TipsThemeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsThemeKit.swift; sourceTree = "<group>"; };
+		A10000000000000000000005 /* WC2026TipsArrivalStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsArrivalStage.swift; sourceTree = "<group>"; };
+		A10000000000000000000006 /* WC2026TipsSignalGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsSignalGate.swift; sourceTree = "<group>"; };
+		A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsOnlinePassage.swift; sourceTree = "<group>"; };
+		A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsAppsFlyerAttribution.swift; sourceTree = "<group>"; };
+		A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsExperienceScreens.swift; sourceTree = "<group>"; };
+		A10000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10000000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000012 /* WC2026BetTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WC2026BetTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10000000000000000000201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000111 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10000000000000000000210 = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000211 /* WC2026BetTips */,
+				A10000000000000000000212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000211 /* WC2026BetTips */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000001 /* WC2026TipsApp.swift */,
+				A10000000000000000000002 /* WC2026TipsModels.swift */,
+				A10000000000000000000003 /* WC2026TipsLocalStore.swift */,
+				A10000000000000000000004 /* WC2026TipsThemeKit.swift */,
+				A10000000000000000000005 /* WC2026TipsArrivalStage.swift */,
+				A10000000000000000000006 /* WC2026TipsSignalGate.swift */,
+				A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */,
+				A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */,
+				A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */,
+				A10000000000000000000011 /* Info.plist */,
+				A10000000000000000000010 /* Assets.xcassets */,
+			);
+			path = WC2026BetTips;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10000000000000000000012 /* WC2026BetTips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10000000000000000000220 /* WC2026BetTips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000272 /* Build configuration list for PBXNativeTarget "WC2026BetTips" */;
+			buildPhases = (
+				A10000000000000000000230 /* Sources */,
+				A10000000000000000000201 /* Frameworks */,
+				A10000000000000000000240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WC2026BetTips;
+			packageProductDependencies = (
+				A10000000000000000000302 /* AppsFlyerLib-Static */,
+			);
+			productName = WC2026BetTips;
+			productReference = A10000000000000000000012 /* WC2026BetTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					A10000000000000000000220 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000271 /* Build configuration list for PBXProject "WC2026BetTips" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10000000000000000000210;
+			packageReferences = (
+				A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
+			productRefGroup = A10000000000000000000212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10000000000000000000220 /* WC2026BetTips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10000000000000000000240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000110 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10000000000000000000230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000101 /* WC2026TipsApp.swift in Sources */,
+				A10000000000000000000102 /* WC2026TipsModels.swift in Sources */,
+				A10000000000000000000103 /* WC2026TipsLocalStore.swift in Sources */,
+				A10000000000000000000104 /* WC2026TipsThemeKit.swift in Sources */,
+				A10000000000000000000105 /* WC2026TipsArrivalStage.swift in Sources */,
+				A10000000000000000000106 /* WC2026TipsSignalGate.swift in Sources */,
+				A10000000000000000000107 /* WC2026TipsOnlinePassage.swift in Sources */,
+				A10000000000000000000108 /* WC2026TipsAppsFlyerAttribution.swift in Sources */,
+				A10000000000000000000109 /* WC2026TipsExperienceScreens.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000000000000000250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A10000000000000000000251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000000000000000252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WC2026BetTips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WC 2026 Bet Tips";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wc2026tips.top;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A10000000000000000000253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WC2026BetTips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "WC 2026 Bet Tips";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wc2026tips.top;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000271 /* Build configuration list for PBXProject "WC2026BetTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000250 /* Debug */,
+				A10000000000000000000251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000272 /* Build configuration list for PBXNativeTarget "WC2026BetTips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000252 /* Debug */,
+				A10000000000000000000253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A10000000000000000000302 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A10000000000000000000260 /* Project object */;
+}

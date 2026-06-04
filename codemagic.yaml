@@ -1,0 +1,39 @@
+workflows:
+  ios-app-store:
+    name: WC 2026 Bet Tips iOS App Store
+    environment:
+      groups:
+        - app_store_credentials
+        - certificate_credentials
+      vars:
+        XCODE_PROJECT: "WC2026BetTips.xcodeproj"
+        XCODE_SCHEME: "WC2026BetTips"
+        BUNDLE_ID: "com.wc2026tips.top"
+        APP_STORE_APPLE_ID: 6776691072
+      xcode: latest
+    scripts:
+      - name: Set up keychain
+        script: keychain initialize
+      - name: Fetch signing files
+        script: app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --platform=IOS --create
+      - name: Use signing certificate
+        script: keychain add-certificates
+      - name: Apply code signing profiles
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: agvtool new-version -all $(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID") + 1))
+      - name: Build ipa
+        script: |
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-flags="-destination 'generic/platform=iOS'"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      app_store_connect:
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: true
