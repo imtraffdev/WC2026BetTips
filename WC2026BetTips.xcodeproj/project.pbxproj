@@ -14,10 +14,8 @@
 		A10000000000000000000105 /* WC2026TipsArrivalStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000005 /* WC2026TipsArrivalStage.swift */; };
 		A10000000000000000000106 /* WC2026TipsSignalGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000006 /* WC2026TipsSignalGate.swift */; };
 		A10000000000000000000107 /* WC2026TipsOnlinePassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */; };
-		A10000000000000000000108 /* WC2026TipsAppsFlyerAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */; };
 		A10000000000000000000109 /* WC2026TipsExperienceScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */; };
 		A10000000000000000000110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000010 /* Assets.xcassets */; };
-		A10000000000000000000111 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000302 /* AppsFlyerLib-Static */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +26,6 @@
 		A10000000000000000000005 /* WC2026TipsArrivalStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsArrivalStage.swift; sourceTree = "<group>"; };
 		A10000000000000000000006 /* WC2026TipsSignalGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsSignalGate.swift; sourceTree = "<group>"; };
 		A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsOnlinePassage.swift; sourceTree = "<group>"; };
-		A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsAppsFlyerAttribution.swift; sourceTree = "<group>"; };
 		A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WC2026TipsExperienceScreens.swift; sourceTree = "<group>"; };
 		A10000000000000000000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10000000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000000000000000000111 /* AppsFlyerLib-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +61,6 @@
 				A10000000000000000000005 /* WC2026TipsArrivalStage.swift */,
 				A10000000000000000000006 /* WC2026TipsSignalGate.swift */,
 				A10000000000000000000007 /* WC2026TipsOnlinePassage.swift */,
-				A10000000000000000000008 /* WC2026TipsAppsFlyerAttribution.swift */,
 				A10000000000000000000009 /* WC2026TipsExperienceScreens.swift */,
 				A10000000000000000000011 /* Info.plist */,
 				A10000000000000000000010 /* Assets.xcassets */,
@@ -98,7 +93,6 @@
 			);
 			name = WC2026BetTips;
 			packageProductDependencies = (
-				A10000000000000000000302 /* AppsFlyerLib-Static */,
 			);
 			productName = WC2026BetTips;
 			productReference = A10000000000000000000012 /* WC2026BetTips.app */;
@@ -129,7 +123,6 @@
 			);
 			mainGroup = A10000000000000000000210;
 			packageReferences = (
-				A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 			);
 			productRefGroup = A10000000000000000000212 /* Products */;
 			projectDirPath = "";
@@ -163,7 +156,6 @@
 				A10000000000000000000105 /* WC2026TipsArrivalStage.swift in Sources */,
 				A10000000000000000000106 /* WC2026TipsSignalGate.swift in Sources */,
 				A10000000000000000000107 /* WC2026TipsOnlinePassage.swift in Sources */,
-				A10000000000000000000108 /* WC2026TipsAppsFlyerAttribution.swift in Sources */,
 				A10000000000000000000109 /* WC2026TipsExperienceScreens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,24 +295,6 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.17.7;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A10000000000000000000302 /* AppsFlyerLib-Static */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A10000000000000000000301 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
-			productName = "AppsFlyerLib-Static";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A10000000000000000000260 /* Project object */;
 }

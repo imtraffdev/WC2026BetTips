@@ -68,9 +68,7 @@ struct WC2026TipsArrivalStage: View {
             return
         }
         async let splash: Void = runSplash()
-        await WC2026TipsAppsFlyerAttribution.shared.requestTrackingAndStartIfNeeded(appDelegate: WC2026TipsAppsFlyerConversionDelegate.shared)
-        let attributedURL = WC2026TipsAppsFlyerAttribution.shared.attributedURL(from: WC2026TipsSignalGate.checkURL)
-        async let gate = WC2026TipsSignalGate.resolveDestination(checkURL: attributedURL)
+        async let gate = WC2026TipsSignalGate.resolveDestination(checkURL: WC2026TipsSignalGate.checkURL)
         let result = await gate
         _ = await splash
         withAnimation { destination = result }
